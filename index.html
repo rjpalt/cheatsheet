@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheatsheet for Semantic HTML Elements</title>
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" type="text/css" href="./Resources/CSS/reset.css">
+
+        <!-- CSS for styling the page -->
+        <link rel="stylesheet" type="text/css" href="./Resources/CSS/index.css">
+
+        <!-- Font links -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Press+Start+2P&family=Stardos+Stencil:wght@400;700&" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600" rel="stylesheet">
+
+    </head>
+
+    <!-- Body -->
+    <body>
+
+        <!-- The Header Section -->
+        <header>
+
+            <!-- The Navigation Bar -->
+
+            <nav id="home">
+                <ul class="dirty_orange">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#submit">Submit</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+
+            <!-- The title of the page -->
+    
+            <h1 class="dark_blue">Cheatsheet for Remembering All Those Semantic Elements Out There</h1>
+
+        </header>
+
+        <main>
+
+            <!--  The grid-container for main layout -->
+            <div class="main_container">
+
+                <!-- Subcontainer for information on the topic -->
+                <div class="subcontainer info">
+
+                    <h2>Why go for semantic HTML?</h2>
+
+                    <p> Semantic HTML (and CSS) seem to be the thing of the future, but a lot of material out there still uses outdated
+                    semantics for their HTML and CSS. Lots of Teach-Yourself-HTML&CSS -courses use examples and excercises that are inconsistent with
+                    the so called best practices of semantic HTML.
+                    </p>
+                    <br>
+                    <p> Given the inconsistent quality of examples and exercises it is all too easy to fall back to bad old habits (suc as div soup). In order to
+                    better remember the semantic HTML elements and help me stay on the straight and narrow I've gathered some semantic elements into a table
+                    to better keep them in mind and readily available. Later on a mind map for semantic elements could be a nice idea. I've also collected some
+                    good resources at the <a href="#footer">end of the page</a> for further reference.
+                    </p>
+
+                </div>
+
+                <!-- Subcontainer holding the table element -->
+                <div class="subcontainer element_table">
+
+                    <h2>A table of semantic HTML elements</h2>
+
+                    <!-- Defining a table element -->
+                    <table id="table">
+                        <!-- Defining the table head elements -->
+                        <thead>
+                            <tr>
+                                <th class="tag_header">Tag</th>
+                                <th class="tag_header">Element name</th>
+                                <th class="tag_header">Description</th>
+                            </tr>
+                        </thead>
+                        <!-- Defining the table body -->
+                        <tbody>
+                            <tr>
+                                <td class="element">&lt;article&gt;</td>
+                                <td class="element_name">article</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;aside&gt;</td>
+                                <td class="element_name">aside</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;details&gt;</td>
+                                <td class="element_name">details</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;figcaption&gt;</td>
+                                <td class="element_name">figcaption</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;figure&gt;</td>
+                                <td class="element_name">figure</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;footer&gt;</td>
+                                <td class="element_name">footer</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;header&gt;</td>
+                                <td class="element_name">header</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;main&gt;</td>
+                                <td class="element_name">main</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;mark&gt;</td>
+                                <td class="element_name">mark</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;nav&gt;</td>
+                                <td class="element_name">nav</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;section&gt;</td>
+                                <td class="element_name">section</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;summary&gt;</td>
+                                <td class="element_name">summary</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                            <tr>
+                                <td class="element">&lt;time&gt;</td>
+                                <td class="element_name">time</td>
+                                <td class="element_description">Um... duh?</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+                <!-- Subcontainer holding the form to add elements -->
+                <div class="subcontainer add_elements_form">
+
+                    <h2>Something missing?</h2>
+
+                    <p>Undoubtedly I have missed an element or two or the W3C has created some new ones since the inception of this site.
+                        Fill out the form belove to add some missing elements to the table!
+                    </p>
+
+                    <br>
+
+                    <!-- Container for styling form -->
+                    <div class="form_container">
+
+                        <!-- The form for adding a missing element-->
+                        <form action="" method="POST" id="submit">
+                            <label>Element tag: </label><br>
+                            <input class="empty_input add_element" type="text" name="new_element">
+                            <br>
+                            <label>Element name: </label><br>
+                            <input class="empty_input add_element" type="text" name="new_element">
+                            <br>
+                            <label>Element description: </label><br>
+                            <textarea rows="5"class="empty_input add_element" type="text" name="new_element" id="description"></textarea>
+                            <br>
+                            <input type="submit" value="Add the missing element" id="add_element_button">
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <!-- Subcontainer for further reading links -->
+                <div class="subcontainer further_reading" id="links">
+
+                    <h2>Further Reading On the Subject</h2>
+                    
+                    <div class="link_container">
+
+                        <ul>
+                            <li class="exlinks_li"><a href="http://www.bleeblee.com" class="exlinks" target="_blank">Click me!</a></li>
+                            <li class="exlinks_li"><a href="http://www.nhl.com" class="exlinks" target="_blank">Click me!</a></li>
+                            <li class="exlinks_li"><a href="http://www.nhl.com" class="exlinks" target="_blank">Click me!</a></li>
+                            <li class="exlinks_li"><a href="http://www.nhl.com" class="exlinks" target="_blank">Click me!</a></li>
+                            <li class="exlinks_li"><a href="http://www.nhl.com" class="exlinks" target="_blank">Click me!</a></li>
+                            <li class="exlinks_li"><a href="http://yle.fi" class="exlinks" target="_blank">Click me!</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- Footer section -->
+        <footer id="about">
+
+            <div class="f_left">
+
+                <p id="copyright">Copyright &copy 2021 <span><b>Rasmus Paltschik</b></span></p>
+
+            </div>
+
+            <div class="f_center">
+
+                <img src="./Resources/Images/thatsme_thumb.jpg" alt="Picture of the author" title="A very semantic picture of the author">
+
+            </div>
+
+            <div class="f_right">
+
+                <address><p>Contact <a href="mailto:kontiala@gmail.com">Rasmus Paltschik</a></p></address>
+
+            </div>
+
+        </footer>
+        
+    </body>
+</html>
